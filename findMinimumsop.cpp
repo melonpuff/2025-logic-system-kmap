@@ -90,7 +90,7 @@ int main() {
 
     vector<vector<int>> minsop = findMinimumSOP(primes, essentials, minterms);
 
-    // 印出結果
+
     cout << "Minimum SOP:" << endl;
     for (const auto& prime : minsop) {
         cout << "{ ";
